@@ -1,0 +1,37 @@
+{
+  "name": "express-mitigation",
+  "version": "1.0.0",
+  "description": "An express middlewear to mitigate bad actors from making requests",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier --write '**/*.{ts}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/easton36/express-mitigation.git"
+  },
+  "keywords": [
+    "express",
+    "typescript",
+    "blacklist",
+    "middlewear",
+    "threats",
+    "mitigation"
+  ],
+  "author": "Easton (https://easton.gg)",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/easton36/express-mitigation/issues"
+  },
+  "homepage": "https://github.com/easton36/express-mitigation#readme",
+  "devDependencies": {
+    "@eslint/create-config": "^0.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "eslint": "^8.20.0",
+    "jsdoc": "^3.6.10",
+    "prettier": "2.7.1"
+  }
+}
